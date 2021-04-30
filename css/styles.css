@@ -68,8 +68,9 @@ img {
   text-shadow:2px 2px white;
 }
 
-#language {
+#language, .language {
   color: rgb(216, 178, 80);
   font-weight: bold;
   text-shadow:2px 2px white;
+  text-transform: uppercase;
 }
