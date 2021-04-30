@@ -3,7 +3,7 @@ html, body {
   height: 100%;
 }
 
-#firstSet, #secondSet, #thirdSet, #fourthSet, #fifthSet {
+#firstSet, #secondSet, #thirdSet, #fourthSet, #fifthSet, #result, #javaScript, #cSharp, #ruby, #noPref {
   display: none;
 }
 
@@ -15,6 +15,11 @@ html, body {
   box-shadow: 0 4px grey;
   text-shadow: 3px 3px rgb(60, 60, 60);
   text-transform: uppercase;
+}
+
+#contactInfo {
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .container {
