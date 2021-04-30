@@ -86,6 +86,7 @@ let userEmail;
       $('#result').fadeIn();
     } else {
       $('#result').hide();
+      $('.language').text('any language');
       $('#noPref').fadeIn();
 
     }
