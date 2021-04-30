@@ -3,7 +3,7 @@ html, body {
   height: 100%;
 }
 
-#firstSet {
+#firstSet, #secondSet, #thirdSet, #fourthSet, #fifthSet {
   display: none;
 }
 
