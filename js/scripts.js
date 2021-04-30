@@ -17,14 +17,16 @@ let tally = (answer) => {
 
 $(document).ready(function() {
 let userName;
+let userEmail;
   $('#contactInfo').submit(function(e1) {
     e1.preventDefault();
     userName = $('input#fullName').val();
+    userEmail = $('input#contact').val();
 
     $('.intro').hide();
     $('#firstSet').fadeIn();
   })
-  
+
   $('#first').submit(function(e2) {
     e2.preventDefault();
     const firstAnswer = $('input:radio[name=first]:checked').val();
@@ -65,7 +67,9 @@ let userName;
     e6.preventDefault();
     const fifthAnswer = $('input:radio[name=fifth]:checked').val();
     tally(fifthAnswer);
-    $('#name').text(userName);
+    $('.name').text(userName);
+    $('.email').text(userEmail);
+    
 
     $('#fifthSet').hide();
     if (jsCount > csCount && jsCount > rubyCount) {
@@ -81,8 +85,9 @@ let userName;
       $('#language').text('Ruby');
       $('#result').fadeIn();
     } else {
-      $('#noPref').fadeIn();
       $('#result').hide();
+      $('#noPref').fadeIn();
+
     }
   })
 })
