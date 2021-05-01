@@ -33,7 +33,27 @@ let userEmail;
     tally(firstAnswer);
 
     $('#firstSet').hide();
-    $('#secondSet').fadeIn();
+    if (firstAnswer === 'other') {
+      $('#otherSet1').fadeIn();
+    } else {
+      $('#secondSet').fadeIn();
+    }
+  })
+
+  $('#otherSet').submit(function(e7) {
+    e7.preventDefault();
+    const otherSetAnswer = $('input:radio[name=other]:checked').val();
+    $('.name').text(userName);
+    $('.email').text(userEmail);
+    
+    $('#otherSet1').hide();
+    if (otherSetAnswer === 'other') {
+      $('#english').fadeIn();
+      $('#language').text('english');
+      $('#result').fadeIn();
+    } else {
+      $('#secondSet').fadeIn();
+    }
   })
 
   $('#second').submit(function(e3) {
