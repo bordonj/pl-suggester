@@ -3,7 +3,7 @@ html, body {
   height: 100%;
 }
 
-#firstSet, #secondSet, #thirdSet, #fourthSet, #fifthSet, #result, #javaScript, #cSharp, #ruby, #noPref {
+#firstSet, #secondSet, #thirdSet, #fourthSet, #fifthSet, #otherSet1, #result, #javaScript, #cSharp, #ruby, #noPref, #english {
   display: none;
 }
 
