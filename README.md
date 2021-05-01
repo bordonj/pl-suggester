@@ -15,7 +15,7 @@
 
 ## Description
 
-This is a **programming language suggester** that uses branching logic to determine a user's best fit with a particular programming language. There are at least three different outcomes, and a user can try again if they are dissatisfied with the result. The webpage begins with a form the user can input user and contact information. Afterwards, there are five sets of statements a user can pick from to determine the best fitting language. 
+This is a **programming language suggester** that uses branching logic to determine a user's best fit with a particular programming language. There are at least three different outcomes, and a user can try again if they are dissatisfied with the result. The webpage begins with a form the user can input user and contact information. Afterwards, depending on how the user answered, there are five sets of statements a user can pick from to determine the best fitting language. 
 
 ## Setup/Installation Requirements
 
@@ -25,10 +25,10 @@ git clone https://github.com/bordonj/pl-suggester.git
 ```
 * On your desktop, there should now be a directory labeled "pl-suggester"
 * Click the folder "pl-suggester" on your Desktop
-* To open the HTML file, and view the website, click on the file index.html
+* To open the HTML file, and view the website, click on the file 'index.html'
 * This should open up the website in a browser
-* Upon looking at the webpage in the browser, you can navigate other projects by clicking links on the left sidebar
-* To read about me and my background, please refer to index.html page, and scroll down
+* Upon looking at the webpage in the browser, you can begin the questionnaire by inputting your information first
+* To find out your resut, please complete the questions until a result appears
 
 ## Github Pages link
 
